@@ -1,3 +1,3 @@
 function sayHello() {
-    alert("Hello! My app works!");
+    alert("Ayooo, whatcha doing?!!");
 }
