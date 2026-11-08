@@ -29,3 +29,13 @@ button {
 .hidden {
   display: none;
 }
+
+
+/* FEATURE 5: INPUT STYLES */
+input {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}

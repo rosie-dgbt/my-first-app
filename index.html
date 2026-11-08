@@ -7,10 +7,20 @@
 <button onclick="startGame()">Click here</button>
 </div>
 
-<!-- FEATURE 3: GAME SCREEN CONTAINER -->
+
+<!-- FEATURE 5: GUESSING GAME CONTENT -->
 <div id="game-screen" class="hidden">
   <h2>Guessing Game</h2>
   <p>Can you guess the school object?</p>
-</div>
+  
+  <!-- User guess input field -->
+  <input type="text" id="user-guess" placeholder="Type your guess here">
+  
+  <!-- Submit button -->
+  <button onclick="checkGuess()">Submit Guess</button>
+  
+  <!-- Feedback message area -->
+  <p id="feedback"></p>
 
-<script src="script.js"></script>
+  <button onclick="resetGame()">Play Again</button>
+</div>
