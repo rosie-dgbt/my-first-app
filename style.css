@@ -24,3 +24,8 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* FEATURE 3: HIDDEN CLASS */
+.hidden {
+  display: none;
+}
